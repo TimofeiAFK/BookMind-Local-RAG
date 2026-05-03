@@ -38,3 +38,10 @@ EPUB book
 → semantic retrieval
 → prompt construction
 → local LLM answer
+
+BookMind-Local-RAG/
+├── README.md
+├── .gitignore
+├── requirements.txt
+├── script_1.py
+└── script_2.py
