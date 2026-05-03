@@ -39,9 +39,73 @@ EPUB book
 → prompt construction
 → local LLM answer
 
+## Project Structure
+
 BookMind-Local-RAG/
 ├── README.md
 ├── .gitignore
 ├── requirements.txt
 ├── script_1.py
 └── script_2.py
+
+## Installation
+
+##Clone the repository:
+
+git clone https://github.com/YOUR_USERNAME/BookMind-Local-RAG.git
+cd BookMind-Local-RAG
+
+## Create a virtual environment:
+python -m venv .venv
+
+## Activate it:
+
+## For macOS/Linux:
+
+source .venv/bin/activate
+
+## For Windows:
+
+.venv\Scripts\activate
+
+## Install dependencies:
+
+pip install -r requirements.txt
+
+## Usage
+1)
+python Book_RAG_1.py
+
+2)
+python Book_RAG_2.py
+
+## Important Notes
+
+This repository does not include:
+	•	copyrighted books
+	•	local LLM model files
+	•	generated embeddings
+	•	prepared datasets
+
+Users should provide their own EPUB files and local GGUF model.
+
+## Current Limitations
+
+	•	EPUB quality affects text extraction
+	•	Some EPUB files may contain images instead of selectable text
+	•	Answer quality depends on the local LLM model
+	•	Current version uses basic file paths inside scripts
+	•	No persistent vector database yet
+
+
+
+
+
+
+
+
+
+
+
+
+
