@@ -38,64 +38,92 @@ EPUB book
 → semantic retrieval
 → prompt construction
 → local LLM answer
+```
 
 ## Project Structure
 
+```text
 BookMind-Local-RAG/
 ├── README.md
 ├── .gitignore
 ├── requirements.txt
-├── script_1.py
-└── script_2.py
+├── Book_RAG_1.py
+└── Book_RAG_2.py
+```
 
 ## Installation
 
-##Clone the repository:
+Clone the repository:
 
+```bash
 git clone https://github.com/YOUR_USERNAME/BookMind-Local-RAG.git
 cd BookMind-Local-RAG
+```
 
-## Create a virtual environment:
+Create a virtual environment:
+
+```bash
 python -m venv .venv
+```
 
-## Activate it:
+Activate it:
 
-## For macOS/Linux:
+For macOS/Linux:
 
+```bash
 source .venv/bin/activate
+```
 
-## For Windows:
+For Windows:
 
+```bash
 .venv\Scripts\activate
+```
 
-## Install dependencies:
+Install dependencies:
 
+```bash
 pip install -r requirements.txt
+```
 
 ## Usage
-1)
-python Book_RAG_1.py
 
-2)
+Run the first script:
+
+```bash
+python Book_RAG_1.py
+```
+
+Run the second script:
+
+```bash
 python Book_RAG_2.py
+```
 
 ## Important Notes
 
 This repository does not include:
-	•	copyrighted books
-	•	local LLM model files
-	•	generated embeddings
-	•	prepared datasets
+
+- copyrighted books
+- local LLM model files
+- generated embeddings
+- prepared datasets
 
 Users should provide their own EPUB files and local GGUF model.
 
 ## Current Limitations
 
-	•	EPUB quality affects text extraction
-	•	Some EPUB files may contain images instead of selectable text
-	•	Answer quality depends on the local LLM model
-	•	Current version uses basic file paths inside scripts
-	•	No persistent vector database yet
+- EPUB quality affects text extraction
+- Some EPUB files may contain images instead of selectable text
+- Answer quality depends on the local LLM model
+- Current version uses basic file paths inside scripts
+- No persistent vector database yet
+
+## License
+
+This project is licensed under the MIT License.
+
+The license applies only to the source code. Books, model files, and datasets are not included and must be provided by the user.
 
 
 
